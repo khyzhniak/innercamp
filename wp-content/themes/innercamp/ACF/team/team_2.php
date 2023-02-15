@@ -15,9 +15,7 @@ if ($query->have_posts()) {
       <button class="close"><img src="<?= get_template_directory_uri(); ?>/img/team/close-img.svg" alt=""></button>
       <div class="mobile-coach-item-wrap">
         <div class="coach-info-mobile">
-          <?php
-          echo get_the_post_thumbnail();
-          ?>
+          <?php echo get_the_post_thumbnail(); ?>
           <h2 class="title-mobile"><?php the_title(); ?></h2>
         </div>
         <div class="categories-mobile">
@@ -32,6 +30,7 @@ if ($query->have_posts()) {
           }
           ?>
         </div>
+
         <div class="mobile-coach-content">
           <?php the_content(); ?>
         </div>
