@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" host="hotletol.ftp.tools" id="b2e6a2bf-dffa-45b0-aa9e-0b19fddc29f7" port="22" nameFormat="DESCRIPTIVE" username="hotletol" useOpenSSHConfig="true" />
+    </configs>
+  </component>
+</project>

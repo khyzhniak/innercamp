@@ -1,0 +1,74 @@
+
+body .block-editor-block-list__layout .block-editor-block-list__block{
+      max-width: 1040px;
+}
+
+html body .post-type-acf-field-group .acf-field-setting-fc_layout{
+width: calc(100% - 20px) !important;
+    margin-right: 20px  !important;
+    margin-left: 20px  !important;
+}
+
+html body .post-type-acf-field-group .acf-field-setting-fc_layout .acf-fc-meta{
+      padding-right: 20px  !important;
+    padding-left: 20px  !important;
+}
+html body .post-type-acf-field-group .acf-field-setting-fc_layout .acf-input-sub{
+    margin-right:  20px  !important;
+    margin-bottom: 32px;
+    margin-left:  20px  !important;
+}
+
+html body .acf-field-settings .acf-field{
+    padding-right:  20px  !important;
+    padding-bottom: 0;
+    padding-left:  20px  !important;
+}
+
+html body .acf-admin-single-field-group .acf-field-object-flexible-content .acf-is-subfields .acf-field-object .acf-label, .acf-admin-single-field-group .acf-field-object-flexible-content .acf-is-subfields .acf-field-object .acf-input {
+/*    max-width: 80% !important;*/
+}
+
+html body .acf-field-settings .acf-field .acf-label.acf-input-sub,body  .acf-field-settings .acf-field .acf-input.acf-input-sub{
+  
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+html body .post-type-acf-field-group .acf-field-setting-fc_layout {
+    width: calc(100% - 40px) !important;
+    margin-right: 20px !important;
+    margin-left: 20px !important;
+  
+}
+
+
+html body .acf-field.acf-field-setting-fc_layout{
+      width: calc(100% - 40px) !important;
+  
+  margin-left: 20px  !important;
+}
+
+html body .post-type-acf-field-group .acf-field-setting-fc_layout .acf-input-sub{
+  margin-left: 0  !important;
+}
+
+html body .acf-admin-single-field-group .acf-field-object-flexible-content .acf-is-subfields .acf-field-object .acf-label, html body .acf-admin-single-field-group .acf-field-object-flexible-content .acf-is-subfields .acf-field-object .acf-input{
+    max-width: 100% !important;
+}
+
+
+html body .acf-admin-single-field-group .acf-field-object-flexible-content .acf-is-subfields .acf-field-object .acf-label, html body .acf-admin-single-field-group .acf-field-object-flexible-content .acf-is-subfields .acf-field-object .acf-input{
+      max-width: 100% !important;
+}
+
+
+body .profile__menu.open, body .right__menu.open{
+  height: calc(100% - 32px );
+}
+
+@media screen and (max-width: 782px){
+  body .profile__menu.open, body .right__menu.open{
+    height: calc(100% - 46px );
+  }
+}

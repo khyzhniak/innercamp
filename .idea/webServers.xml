@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="702defbf-177e-472c-8506-21e63086a08a" name="hotletol.ftp.tools">
+        <fileTransfer rootFolder="/home/hotletol/mettevo.com/innercamp" accessType="SFTP" host="hotletol.ftp.tools" port="22" sshConfigId="b2e6a2bf-dffa-45b0-aa9e-0b19fddc29f7" sshConfig="hotletol@hotletol.ftp.tools:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

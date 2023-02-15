@@ -1,0 +1,108 @@
+/*!
+Theme Name: innercamp
+Theme URI:  
+Description: Description
+Version: 1.0.0
+Tested up to: 5.4
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: innercamp
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+innercamp is based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+
+.woocommerce-notices-wrapper{
+  display: none !Important;
+}
+.wpcf7-not-valid{
+/*   box-shadow: inset 0 0 25px rgba(255, 0, 0, 0.49),  0 0 0 3px rgba(255, 0, 0, 0.49);  */
+}
+
+textarea{
+    height: 100px;
+}
+
+.wpcf7-response-output,.wpcf7-not-valid-tip{
+  display: none !important; 
+}
+
+.wpcf7-not-valid{
+/*  border: 1px solid #ff0000 !important; */
+}
+
+.wpcf7-not-valid{
+/*  border: 1px solid #ff0000 !important; */
+  
+/*  color: #ff0000;*/
+}
+
+/*
+footer[main] form .wpcf7-list-item label{
+  display: flex;
+}
+
+footer[main] form .wpcf7-list-item label>*:nth-child(2){
+  display: flex;
+  order: 1;
+}
+footer[main] form .wpcf7-list-item label>*:nth-child(1){
+  display: flex;
+  order: 2;
+}
+
+footer[main] form .wpcf7-list-item{
+  margin: 0;
+}
+*/
+
+
+body>div.woocommerce{
+    display: flex !important;
+    flex-direction: column;
+    padding: 150px 0;
+}
+
+body>section{
+/* 	display:none; */
+}
+
+body>section[class*='__1'],
+body>section.descry{
+/* 	display:block; */
+}
+
+body.page-template-tpl-app-page header,
+body.page-template-tpl-blog-page  header{
+        background: #424F44;
+        backdrop-filter: blur(9px);
+
+        box-shadow: 0 0 13px rgba(0, 0, 0, 0.38); 
+       
+      }
+
+
+body.woocommerce-page:not(.woocommerce-lost-password) header[main]{
+  background: #424F44;
+  backdrop-filter: blur(9px);
+
+  box-shadow: 0 0 13px rgba(0, 0, 0, 0.38); 
+
+}
+
+
+
+body.page-template-tpl-app-page header{
+        background: #424F44;
+        backdrop-filter: blur(9px);
+        box-shadow: 0 0 13px rgba(0, 0, 0, 0.38); 
+}
+
